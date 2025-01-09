@@ -1,0 +1,12 @@
+body {
+    padding: 20px;
+}
+#loadingSpinner {
+    display: none;
+}
+tr[data-status="active"] {
+    background-color: #d4edda;
+}
+tr[data-status="inactive"] {
+    background-color: #f8d7da;
+}
